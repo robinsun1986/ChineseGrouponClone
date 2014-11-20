@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C87EE7371A1D7EF100BDF8E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C87EE7361A1D7EF100BDF8E6 /* UIKit.framework */; };
+		C87EE7391A1D7EF100BDF8E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C87EE7381A1D7EF100BDF8E6 /* Foundation.framework */; };
+		C87EE73B1A1D7EF100BDF8E6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C87EE73A1A1D7EF100BDF8E6 /* CoreGraphics.framework */; };
+		C87EE7411A1D7EF100BDF8E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C87EE73F1A1D7EF100BDF8E6 /* InfoPlist.strings */; };
+		C87EE7431A1D7EF100BDF8E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C87EE7421A1D7EF100BDF8E6 /* main.m */; };
+		C87EE7471A1D7EF100BDF8E6 /* GPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C87EE7461A1D7EF100BDF8E6 /* GPAppDelegate.m */; };
+		C87EE7491A1D7EF100BDF8E6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C87EE7481A1D7EF100BDF8E6 /* Default.png */; };
+		C87EE74B1A1D7EF100BDF8E6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C87EE74A1A1D7EF100BDF8E6 /* Default@2x.png */; };
+		C87EE74D1A1D7EF100BDF8E6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C87EE74C1A1D7EF100BDF8E6 /* Default-568h@2x.png */; };
+		C87EE7501A1D7EF100BDF8E6 /* GPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C87EE74F1A1D7EF100BDF8E6 /* GPViewController.m */; };
+		C87EE7531A1D7EF100BDF8E6 /* GPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C87EE7511A1D7EF100BDF8E6 /* GPViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C87EE7331A1D7EF100BDF8E6 /* ChineseGrouponClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChineseGrouponClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C87EE7361A1D7EF100BDF8E6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C87EE7381A1D7EF100BDF8E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C87EE73A1A1D7EF100BDF8E6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C87EE73E1A1D7EF100BDF8E6 /* ChineseGrouponClone-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChineseGrouponClone-Info.plist"; sourceTree = "<group>"; };
+		C87EE7401A1D7EF100BDF8E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C87EE7421A1D7EF100BDF8E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C87EE7441A1D7EF100BDF8E6 /* ChineseGrouponClone-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChineseGrouponClone-Prefix.pch"; sourceTree = "<group>"; };
+		C87EE7451A1D7EF100BDF8E6 /* GPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPAppDelegate.h; sourceTree = "<group>"; };
+		C87EE7461A1D7EF100BDF8E6 /* GPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPAppDelegate.m; sourceTree = "<group>"; };
+		C87EE7481A1D7EF100BDF8E6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C87EE74A1A1D7EF100BDF8E6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C87EE74C1A1D7EF100BDF8E6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C87EE74E1A1D7EF100BDF8E6 /* GPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPViewController.h; sourceTree = "<group>"; };
+		C87EE74F1A1D7EF100BDF8E6 /* GPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPViewController.m; sourceTree = "<group>"; };
+		C87EE7521A1D7EF100BDF8E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GPViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C87EE7301A1D7EF100BDF8E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C87EE7371A1D7EF100BDF8E6 /* UIKit.framework in Frameworks */,
+				C87EE7391A1D7EF100BDF8E6 /* Foundation.framework in Frameworks */,
+				C87EE73B1A1D7EF100BDF8E6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C87EE72A1A1D7EF100BDF8E6 = {
+			isa = PBXGroup;
+			children = (
+				C87EE73C1A1D7EF100BDF8E6 /* ChineseGrouponClone */,
+				C87EE7351A1D7EF100BDF8E6 /* Frameworks */,
+				C87EE7341A1D7EF100BDF8E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C87EE7341A1D7EF100BDF8E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C87EE7331A1D7EF100BDF8E6 /* ChineseGrouponClone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C87EE7351A1D7EF100BDF8E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C87EE7361A1D7EF100BDF8E6 /* UIKit.framework */,
+				C87EE7381A1D7EF100BDF8E6 /* Foundation.framework */,
+				C87EE73A1A1D7EF100BDF8E6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C87EE73C1A1D7EF100BDF8E6 /* ChineseGrouponClone */ = {
+			isa = PBXGroup;
+			children = (
+				C87EE7451A1D7EF100BDF8E6 /* GPAppDelegate.h */,
+				C87EE7461A1D7EF100BDF8E6 /* GPAppDelegate.m */,
+				C87EE74E1A1D7EF100BDF8E6 /* GPViewController.h */,
+				C87EE74F1A1D7EF100BDF8E6 /* GPViewController.m */,
+				C87EE7511A1D7EF100BDF8E6 /* GPViewController.xib */,
+				C87EE73D1A1D7EF100BDF8E6 /* Supporting Files */,
+			);
+			path = ChineseGrouponClone;
+			sourceTree = "<group>";
+		};
+		C87EE73D1A1D7EF100BDF8E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C87EE73E1A1D7EF100BDF8E6 /* ChineseGrouponClone-Info.plist */,
+				C87EE73F1A1D7EF100BDF8E6 /* InfoPlist.strings */,
+				C87EE7421A1D7EF100BDF8E6 /* main.m */,
+				C87EE7441A1D7EF100BDF8E6 /* ChineseGrouponClone-Prefix.pch */,
+				C87EE7481A1D7EF100BDF8E6 /* Default.png */,
+				C87EE74A1A1D7EF100BDF8E6 /* Default@2x.png */,
+				C87EE74C1A1D7EF100BDF8E6 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C87EE7321A1D7EF100BDF8E6 /* ChineseGrouponClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C87EE7561A1D7EF100BDF8E6 /* Build configuration list for PBXNativeTarget "ChineseGrouponClone" */;
+			buildPhases = (
+				C87EE72F1A1D7EF100BDF8E6 /* Sources */,
+				C87EE7301A1D7EF100BDF8E6 /* Frameworks */,
+				C87EE7311A1D7EF100BDF8E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChineseGrouponClone;
+			productName = ChineseGrouponClone;
+			productReference = C87EE7331A1D7EF100BDF8E6 /* ChineseGrouponClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C87EE72B1A1D7EF100BDF8E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GP;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = robin.sun;
+			};
+			buildConfigurationList = C87EE72E1A1D7EF100BDF8E6 /* Build configuration list for PBXProject "ChineseGrouponClone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C87EE72A1A1D7EF100BDF8E6;
+			productRefGroup = C87EE7341A1D7EF100BDF8E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C87EE7321A1D7EF100BDF8E6 /* ChineseGrouponClone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C87EE7311A1D7EF100BDF8E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C87EE7411A1D7EF100BDF8E6 /* InfoPlist.strings in Resources */,
+				C87EE7491A1D7EF100BDF8E6 /* Default.png in Resources */,
+				C87EE74B1A1D7EF100BDF8E6 /* Default@2x.png in Resources */,
+				C87EE74D1A1D7EF100BDF8E6 /* Default-568h@2x.png in Resources */,
+				C87EE7531A1D7EF100BDF8E6 /* GPViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C87EE72F1A1D7EF100BDF8E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C87EE7431A1D7EF100BDF8E6 /* main.m in Sources */,
+				C87EE7471A1D7EF100BDF8E6 /* GPAppDelegate.m in Sources */,
+				C87EE7501A1D7EF100BDF8E6 /* GPViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C87EE73F1A1D7EF100BDF8E6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C87EE7401A1D7EF100BDF8E6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C87EE7511A1D7EF100BDF8E6 /* GPViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C87EE7521A1D7EF100BDF8E6 /* en */,
+			);
+			name = GPViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C87EE7541A1D7EF100BDF8E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C87EE7551A1D7EF100BDF8E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C87EE7571A1D7EF100BDF8E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChineseGrouponClone/ChineseGrouponClone-Prefix.pch";
+				INFOPLIST_FILE = "ChineseGrouponClone/ChineseGrouponClone-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C87EE7581A1D7EF100BDF8E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChineseGrouponClone/ChineseGrouponClone-Prefix.pch";
+				INFOPLIST_FILE = "ChineseGrouponClone/ChineseGrouponClone-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C87EE72E1A1D7EF100BDF8E6 /* Build configuration list for PBXProject "ChineseGrouponClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C87EE7541A1D7EF100BDF8E6 /* Debug */,
+				C87EE7551A1D7EF100BDF8E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C87EE7561A1D7EF100BDF8E6 /* Build configuration list for PBXNativeTarget "ChineseGrouponClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C87EE7571A1D7EF100BDF8E6 /* Debug */,
+				C87EE7581A1D7EF100BDF8E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C87EE72B1A1D7EF100BDF8E6 /* Project object */;
+}
