@@ -6,12 +6,16 @@ All data, including images and descriptions, are provided by the official open w
 
 <table>
   <tr>
-    <td><img src="https://cloud.githubusercontent.com/assets/8778657/4284209/4e246522-3d79-11e4-9a0a-d2f351997f6b.png" /></td>
-    <td><img src="https://cloud.githubusercontent.com/assets/8778657/4281806/91789ac6-3d49-11e4-9f07-51009ce7fd17.png" /></td>
+    <td><img src="https://cloud.githubusercontent.com/assets/8778657/5427415/f583c8e6-83ef-11e4-8231-36a7cde91bf2.png" /></td>
+    <td><img src="https://cloud.githubusercontent.com/assets/8778657/5427416/f5864e2c-83ef-11e4-9b03-5448269b3493.png" /></td>
   </tr>
   <tr>
-    <td><img src="https://cloud.githubusercontent.com/assets/8778657/4281807/91a586c6-3d49-11e4-94d5-62e73538be32.png" /></td>
-    <td><img src="https://cloud.githubusercontent.com/assets/8778657/4281808/91c209b8-3d49-11e4-938e-ef42da0bbbfe.png" /></td>
+    <td><img src="https://cloud.githubusercontent.com/assets/8778657/5427413/f57de2c8-83ef-11e4-9425-4b9ebb595965.png" /></td>
+    <td><img src="https://cloud.githubusercontent.com/assets/8778657/5427414/f580b8d6-83ef-11e4-9ac4-81c708dc2606.png" /></td>
+  </tr>
+  <tr>
+    <td><img src="https://cloud.githubusercontent.com/assets/8778657/5427411/f579bbee-83ef-11e4-8a8f-8df6c442c385.png" /></td>
+    <td><img src="https://cloud.githubusercontent.com/assets/8778657/5427412/f57bc7b8-83ef-11e4-8277-4946d8c9cc4f.png" /></td>
   </tr>
 </table>
 
