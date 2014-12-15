@@ -33,6 +33,9 @@
 @property (nonatomic, copy) NSString *notice; // notice
 @property (nonatomic, copy) GPRestriction *restrictions; // restriction
 
+// business info
+@property (nonatomic, strong) NSArray *businesses;
+
 // extra properties for collect/favorite
 @property (nonatomic, assign) BOOL collected; // whether its collected
 

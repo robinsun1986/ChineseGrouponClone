@@ -193,4 +193,14 @@ singleton_implementation(GPMetaDataTool)
     return nil;
 }
 
+#pragma mark get icon by category name
+- (NSString *)iconWithCategoryName:(NSString *)name
+{
+    for (GPCategory *c in _totalCategories) {
+        if ([c.name isEqualToString:name] || [c.subcategories containsObject:name]) return c.icon;
+    }
+    
+    return nil;
+}
+
 @end

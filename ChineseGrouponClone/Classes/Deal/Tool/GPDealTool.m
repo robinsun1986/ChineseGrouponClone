@@ -20,7 +20,6 @@ typedef void (^RequestBlock)(id result, NSError *errorObj);
 {
     NSMutableDictionary *_blocks;
 }
-
 @end
 
 @implementation GPDealTool
@@ -32,6 +31,41 @@ singleton_implementation(GPDealTool)
         _blocks = [NSMutableDictionary dictionary];
     }
     return self;
+}
+
+#pragma mark get deals with params
+- (void)getDealsWithParams:(NSDictionary *)params success:(DealsSuccessBlock)success error:(DealsErrorBlock)error
+{
+    [self requestWithURL:@"v1/deal/find_deals" params:params block:^(id result, NSError *errorObj) {
+            if (errorObj) {
+                if (error) {
+                    error(errorObj);
+                }
+            } else if (success) {
+                NSArray *arr = result[@"deals"];
+                NSMutableArray *deals = [NSMutableArray array];
+                for (NSDictionary *dict in arr) {
+                    GPDeal *d = [[GPDeal alloc] init];
+                    [d setValues:dict];
+                    [deals addObject:d];
+                }
+                
+                success(deals, [result[@"total_count"] intValue]);
+            }
+        }];
+}
+
+#pragma mark get nearby deals
+- (void)dealWithPos:(CLLocationCoordinate2D)pos success:(DealsSuccessBlock)success error:(DealsErrorBlock)error
+{
+    NSDictionary *params = @{
+        @"city" : @"北京",
+        @"latitude" : @(pos.latitude),
+        @"longitude" : @(pos.longitude),
+        @"radius" : @5000
+    };
+    
+    [self getDealsWithParams:params success:success error:error];
 }
 
 #pragma mark get specified deal data
@@ -83,23 +117,7 @@ singleton_implementation(GPDealTool)
     params[@"page"] = @(page);
     
     // 2. send request
-    [self requestWithURL:@"v1/deal/find_deals" params:params block:^(id result, NSError *errorObj) {
-        if (errorObj) {
-            if (error) {
-                error(errorObj);
-            }
-        } else if (success) {
-            NSArray *arr = result[@"deals"];
-            NSMutableArray *deals = [NSMutableArray array];
-            for (NSDictionary *dict in arr) {
-                GPDeal *d = [[GPDeal alloc] init];
-                [d setValues:dict];
-                [deals addObject:d];
-            }
-            
-            success(deals, [result[@"total_count"] intValue]);
-        }
-    }];
+    [self getDealsWithParams:params success:success error:error];
 }
 
 - (void)requestWithURL:(NSString *)url params:(NSDictionary *)params block:(RequestBlock)block

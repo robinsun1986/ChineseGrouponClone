@@ -6,8 +6,8 @@
 //  Copyright (c) 2014 robin.sun. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "GPBaseShowDetailController.h"
 
-@interface GPMapController : UIViewController
-
+@class GPDeal, GPBusiness;
+@interface GPMapController : GPBaseShowDetailController
 @end

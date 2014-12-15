@@ -6,8 +6,8 @@
 //  Copyright (c) 2014 robin.sun. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "GPBaseShowDetailController.h"
 
-@interface GPMineController : UIViewController
+@interface GPMineController : GPBaseShowDetailController
 
 @end

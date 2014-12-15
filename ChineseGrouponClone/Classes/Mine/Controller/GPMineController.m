@@ -7,6 +7,7 @@
 //
 
 #import "GPMineController.h"
+#import "GPDealTool.h"
 
 @interface GPMineController ()
 
@@ -19,9 +20,15 @@
     [super viewDidLoad];
     self.title = @"Mine";
     
-    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Logout" style:UIBarButtonItemStyleBordered target:nil action:nil];
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Logout" style:UIBarButtonItemStyleBordered target:self action:@selector(logout)];
     
 }
 
+- (void)logout
+{
+//    [[GPDealTool sharedGPDealTool] dealsWithPage:1 success:^(NSArray *deals, int totalCount) {
+//        [self showDetail:deals[0]];
+//    } error:nil];
+}
 
 @end

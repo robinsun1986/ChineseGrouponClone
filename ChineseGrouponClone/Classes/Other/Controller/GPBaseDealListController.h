@@ -6,8 +6,11 @@
 //  Copyright (c) 2014 robin.sun. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "GPBaseShowDetailController.h"
 
-@interface GPBaseDealListController : UICollectionViewController
+@interface GPBaseDealListController : GPBaseShowDetailController
+{
+    UICollectionView *_collectionView;
+}
 - (NSArray *)totalDeals;
 @end

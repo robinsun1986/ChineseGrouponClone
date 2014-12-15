@@ -21,7 +21,7 @@
     [super viewDidLoad];
     self.title = @"My Collection";
     
-    [[NSNotificationCenter defaultCenter] addObserver:self.collectionView selector:@selector(reloadData) name:kCollectChangeNote object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:_collectionView selector:@selector(reloadData) name:kCollectChangeNote object:nil];
 }
 
 - (NSArray *)totalDeals

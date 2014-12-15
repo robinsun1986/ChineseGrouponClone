@@ -59,12 +59,12 @@
 -(void)addRefresh
 {
     MJRefreshHeaderView *header = [MJRefreshHeaderView header];
-    header.scrollView = self.collectionView;
+    header.scrollView = _collectionView;
     header.delegate = self;
     _header = header;
     
     MJRefreshFooterView *footer = [MJRefreshFooterView footer];
-    footer.scrollView = self.collectionView;
+    footer.scrollView = _collectionView;
     footer.delegate = self;
     _footer = footer;
 }
@@ -91,7 +91,7 @@
         // 1. add data
         [_deals addObjectsFromArray:deals];
         // 2. refresh table
-        [self.collectionView reloadData];
+        [_collectionView reloadData];
         // 3. end refreshing
         [refreshView endRefreshing];
         // 4. check if the footer needs to be hidden based on total count

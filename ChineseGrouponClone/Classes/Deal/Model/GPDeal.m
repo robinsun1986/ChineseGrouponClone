@@ -10,6 +10,7 @@
 #import "NSString+Double.h"
 #import "GPRestriction.h"
 #import "NSObject+Value.h"
+#import "GPBusiness.h"
 
 @implementation GPDeal
 
@@ -34,6 +35,24 @@
         [_restrictions setValues:(NSDictionary *)restrictions];
     } else {
         _restrictions = restrictions;
+    }
+}
+
+- (void)setBusinesses:(NSArray *)businesses
+{
+    NSDictionary *obj = [businesses lastObject];
+    if ([obj isKindOfClass:[NSDictionary class]]) {
+        
+        NSMutableArray *temp = [NSMutableArray array];
+        for (NSDictionary *dict in businesses) {
+            GPBusiness *b = [[GPBusiness alloc] init];
+            [b setValues:dict];
+            [temp addObject:b];
+        }
+        _businesses = temp;
+        
+    } else {
+        _businesses = businesses;
     }
 }
 

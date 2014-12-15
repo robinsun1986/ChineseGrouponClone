@@ -29,5 +29,6 @@ singleton_interface(GPMetaDataTool)
 @property (nonatomic, strong) GPOrder *currentOrder;
 
 - (GPOrder *)orderWithName:(NSString *)name;
+- (NSString *)iconWithCategoryName:(NSString *)name;
 
 @end
